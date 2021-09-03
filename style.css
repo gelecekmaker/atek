@@ -1,0 +1,24 @@
+body {background-color : #ccccff;
+	  color            : black;
+}
+
+h1 {color:blue;
+	text-align: center;
+}
+
+/*Classlar oluşturulurken "." ile başlar ve devamına class'ın ismini yazarız.
+Aşağıdaki örneğe göre class="baslik2" ile belirttiğimiz tüm elementler 15 punto olacaktır.
+yazı sitilide Impact ve rengide mavi olacaktır.
+*/
+
+baslik2 {
+	font: 25pt Impact Verdana;
+	color: blue;
+	text-align: center; 
+}
+
+div.baslik2 {
+	font: 15pt Impact Verdana;
+	color:purple;
+	text-align:center;
+}

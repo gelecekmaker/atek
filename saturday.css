@@ -1,0 +1,27 @@
+body {
+	background-color: #d5ff80 ;
+	color : #001a33;
+	
+}
+
+h1 {
+	color : red ;
+	text-align: center;
+}
+
+.baslik1 {
+	font: 20pt Impact Verdena;
+	color: blue;
+	text-align: center;
+	
+}
+
+#baslik2 {
+	font: 30pt Arial;
+	color: green;
+	text-align: center;
+}
+
+.elif1 {
+	
+}

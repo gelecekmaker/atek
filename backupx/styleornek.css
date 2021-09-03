@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<title>Html Öğrenelim</title>
+<meta name="keywords" content="html, bilgi, öğrenme">
+<meta name="description" content="Youtube'da VideoKod">
+<meta name="author" content="Emre Orhan">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo"><img src="icon.png"></div>
+        <div class="search">
+        <input placeholder="Arama Yap...">
+        </div>
+    </div>
+</header>
+
+<div class="bolum"></div>
+<div class="resim">
+    <div class="text">
+        <h1>Video<span>Kod</span></h1>
+        <h4>VideoKod ile en popüler kod dillerini çabucak öğrenin. HTML ve CSS ile web siteleri hazırlayın. Wordpress ile sitenizin altyapısını oluşturun.</h4>
+    </div>
+</div>
+
+<div class="menu"><div class="container">
+	<ul class="menu-ul">
+		<a href=""><li class="menu-li">Ana Sayfa</li></a>
+		<a href=""><li class="menu-li">Hakkımızda</li></a>
+	</ul>
+</div></div>
+<div class="container">
+    <div class="left">
+        <div class="leftp">
+        VideoKod ile en popüler kod dillerini çabucak öğrenin. HTML ve CSS ile web siteleri hazırlayın. Wordpress ile sitenizin altyapısını oluşturun.<br><br>
+            <iframe width="100%" height="480" src="https://www.youtube.com/embed/JP494v0mfF4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="rightp">
+        <a href=""><div class="button">Örnek Buton</div></a>
+            Bunun videosu şurada: <a href="https://youtu.be/3T4NHFzKyEg">youtube</a>
+        </div>
+    </div>
+</div>
+    <div class="clear"></div>
+    <footer>
+        <div class="container">
+            <div class="column-25">
+                <span class="line"><h2 class="title">VideoKod Hakkında</h2></span>
+                <span class="info">
+                VideoKod ile en popüler kod dillerini çabucak öğrenin. HTML ve CSS ile web siteleri hazırlayın. Wordpress ile sitenizin altyapısını oluşturun.
+                </span>
+            </div>
+            <div class="column-25">
+                <span class="line"><h2 class="title">Başlık 1</h2></span>
+                <span class="info">
+                VideoKod ile en popüler kod dillerini çabucak öğrenin. HTML ve CSS ile web siteleri hazırlayın. Wordpress ile sitenizin altyapısını oluşturun.
+                </span>
+            </div>
+            <div class="column-25">
+                <span class="line"><h2 class="title">Başlık 2</h2></span>
+                <span class="info">
+                VideoKod ile en popüler kod dillerini çabucak öğrenin. HTML ve CSS ile web siteleri hazırlayın. Wordpress ile sitenizin altyapısını oluşturun.
+                </span>
+            </div>
+            <div class="column-25">
+                <span class="line"><h2 class="title">Başlık 3</h2></span>
+                <span class="info">
+                VideoKod ile en popüler kod dillerini çabucak öğrenin. HTML ve CSS ile web siteleri hazırlayın. Wordpress ile sitenizin altyapısını oluşturun.
+                </span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+/* background-color elementin arka planı için kullanılır */
+body {background-color: #f2ffcc;
+	  color:black;
+}
+
+h1 {color:red;
+	text-align : center;
+}
+
+/*Classlar oluşturulurken “.” ile başlar ve devamına clasın ismi yazılır. 
+Aşağıdaki örneğe göre class="baslik2" ile belirttiğimiz tüm elementler 
+15 punto Impact yazı tipinde ve mavi renginde olacaktır. 
+  */
+.baslik2 {
+	font : 15pt Impact Verdana;
+	color : blue;
+	text-align : center;
+	}
+
+/*İstersek sadece tek bir elementte geçerli olmasını sağlayabiliriz. 
+Örneğin sadece <div> elementlerinde geçerli olmasını istiyorsak; 
+".baslik2" yani seçim adımızın başına div getirmemiz yeterli olacaktır. 
+Bu durumda bu CSS kodu sadece <div> elementlerinde kullanılabilir olacaktır.
+ */
+div.baslik2 {
+	font : 15pt Impact Verdana;
+	color : blue;
+	text-align : center;
+	
+}	
+
+/* ID özelliği ile de stiller oluşturabiliriz. CLASS'tan farklı yanları:
+Sadece tek bir elementte kullanılabilir.
+Her id sadece tek bir elementte kullanılabilir.
+Stil dosyamızda CLASS'da “ . ” kullandık ancak id özelliğine göre stilleme 
+yapacaksak “ # “ kullanılır
+*/
+
+#baslik3 {
+	font : 14pt Tahoma, Verdana;
+	color: purple ;
+	text-align : center;
+}
+
+
+/*background-image bir element içinde arka plan kullanmak için */
+.resimkutusu {
+	width:900;
+	height:500;
+	background-image : url(resim1.jpg);
+	background-repeat : repeat; 
+	background-size : 300px;
+	margin: auto;
+	
+}
+/*background-repeat: Kullandığımız arkaplan resminin tekrar edip etmeyeceğini belirtmemizi sağlar. 
+Dört kullanımı vardır:
+
+no-repeat : Tekrar edilmeyecektir
+repeat : Tekrarlanacaktır / döşenecektir
+repeat-x : Sadece sağa doğru tekrar edecektir
+repeat-y : Sadece aşağı doğru tekrar edecektir */
+
+
+p { color: blue;
+	text-align: center;
+}
+/*text-align: Yazının yatay yönde ne şekilde hizalanacağını belirtmenizi sağlar. 
+En çok kullanılan hizalama yöntemleri;
+left : sol
+right : sağ
+center : ortalanmış
+justify : iki yana yasla
+ */
+ 
+/* text-transform: Yazılan yazıyı otomatik olarak büyütmek ve küçültmek */
+
+#buyutkucult {
+	text-transform: uppercase;
+}
+
+#buyutkucult2 {
+	text-transform: lowercase;
+}

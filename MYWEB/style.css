@@ -1,0 +1,43 @@
+/* * sayfanın hepsini kapsayan demek */
+* {
+	box-sizing : border-box; /*resimlerin değişmesini engelliyor bir border veya padding eklendiğinde*/
+}
+
+body {
+	margin:0; 
+	padding:0;
+	/*sayfada solda ve yukarıda boşluklar var. Social bar her tarafı kaplasın istiyoruz. */
+	background:#F7E8E5;
+	font-family: 'Poppins', sans-serif; /*ihtiyaç duyduğumuzda farklı font olaiblir ama genel hatlarına bu font hakim olacak*/
+}
+
+#socialmedia {
+	background-color:purple;
+	color:white;
+	height:60px;
+	width: %100; /*tüm ekranı kaplasın*/
+	position: sticky; /*yapışsın*/
+	top:0 ; /*en üstten 0 noktasına */
+	z-index:1; /*sayfa içeriğinde herhangi bir şeyin bunun üzerine çıkmasını engellemek için kullanılır*/
+	font:20px; /*buradaki içerikler için*/
+	text-align:right; /*yazılar ortalansın*/
+	padding:15px; /*iç boşluk*/
+}	
+
+font {
+	float:left;
+	letter-spacing:3px;
+}
+
+span {
+	letter-spacing: 1px; /*yazı aralığını açmak için*/
+	font-size:12px;
+}
+
+/*şimdi ikonun altındaki i lere müdahale edelim.*/
+#socialmedia>i {
+	margin-right:15px;
+}
+#socialmedia>i:hover{
+	opacity:0.6; /*mouse üzerine geldiğinde opaklı %40 düşsün*/
+}

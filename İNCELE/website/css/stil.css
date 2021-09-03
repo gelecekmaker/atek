@@ -1,0 +1,165 @@
+/* Reset */
+ul, li {
+	list-style: none;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {margin: 0;}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Width960 */
+.width960 {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Header */
+header {
+	background: #444;
+	padding-top: 20px;
+	border-bottom: 3px solid #e7746f;
+	margin-bottom: 20px;
+}
+
+/* Logo */
+header .logo h1 a {
+	text-decoration: none;
+	color: #fff;
+}
+header .logo h1 a:hover {
+	color: #e7746f;
+}
+header .logo h6 {
+	color: #fff;
+}
+
+header nav {	
+	overflow: hidden;
+	margin-top: 20px;
+	margin-left: 250px;
+}
+header nav ul li {
+	float: left;
+	margin-left: 10px;
+}
+header nav ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	padding: 10px 20px;
+	display: block;
+}
+header nav ul li a:hover {
+	background: #e7746f;
+}
+
+/* Banner */
+.banner {
+	border: 5px solid #e7746f;
+	height: 180px;
+	margin-bottom: 20px;
+}
+
+/* Sol Kolon */
+section .left {
+	float: left;
+	width: 600px;
+}
+section .left h2.title {
+	color: #e7746f;
+	font-weight: normal;
+}
+section .left p.text {
+	line-height: 25px;
+	color: #aaa;
+}
+section .left ul li {
+	line-height: 25px;
+	color: #aaa;
+}
+
+/* Sað Kolon */
+section .right {
+	float: right;
+	width: 360px;
+}
+section .right .box {
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 12px;
+	margin-bottom: 10px;
+}
+section .right .box  h3 {
+	color: #e7746f;
+	font-weight: normal;
+}
+section .right .box  h5 {
+	color: #009fbc;
+	font-weight: normal;
+}
+section .right .box  span {
+	color: #bbb;
+}
+section .right .box  p {
+	color: #999;
+}
+section .right .box  a {
+	color: #009fbc;
+}
+section .right .box input[type="text"] {
+	outline: none;
+	border: 2px solid #eee;
+	padding: 10px;
+	width: 280px;
+	border-radius: 5px;
+	font: 16px Tahoma;
+	color: #aaa;
+}
+section .right .box input[type="text"]:focus {
+	border-color: #ccc;
+}
+
+/* FOOTER */
+footer {
+	background: #555;
+	overflow: hidden;
+	border-top: 3px solid #e7746f;
+}
+footer ul {
+	overflow: hidden;
+	padding-left: 200px;
+}
+footer ul li {
+	float: left;
+	margin-left: 10px;
+}
+footer ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #e7746f;
+	padding: 10px 20px;
+	display: block;
+}
+footer ul li a:hover {
+	color: #fff;
+}
+
+footer .copy {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+MAKKUSWEB.com
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+body {
+	background-color: #dfe1ed;
+}
+
+#header {
+	background-color: #cbebca ;
+	color: #2c3aa8 ;
+	text-align: center ;
+}
+
+#container {
+	background-color: white;
+	width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	border:solid;
+}
+
+#content {
+	padding: 10px;	
+   /*border: solid; */
+}
+
+#nav {
+	width: 200;
+	float: left; /*nav ile main i yan yana getirmek için */
+	/*border: solid; */
+}
+
+#main {
+	width: 1000;
+	float: right;
+	/*border: solid; */
+}
+
+#footer {
+	clear: both; /*footer ı floattan kurtarmak için clear komutunu kullandık. */
+	border:solid;
+	height:200px;
+}
+
+
+ul {
+    list-style-type: none; /*Bir listenin stilini belirlememizi sağlar Mesela square kare olabilir*/
+
+    margin: 0;
+
+    padding: 0;
+
+    width: 250px;
+
+    background-color: #34495e;
+
+}
+
+ul li{
+  position:relative; /*göreceli konumlandırma */
+}
+
+
+li a {  /* listlerimizin a tag lerine css uygulayalım */
+    display: block; 
+	/*display:block ; Element kutu şeklinde alan kaplayacaktır. Kullanıldığı anda 
+	yeni bir satırdan başlar. Yani elementleri alt alta yazar. none olursa kutu gibi olmaz gizler. 
+	inline ve inline-block parametrelerini de denetebilirsin.*/
+
+    color:white;
+
+    padding: 8px 16px; /*8px alttan ve üstten, 16px ise sağdan ve soldan */
+
+    text-decoration: none;
+/*text-decoration: Yazının biçiminde bazı değişiklikler yapmamızı sağlar. Örneğin tarayıcı 
+varsayılanında sürekli <a> etiketlerindeki altı çizgili dekorasyonu kaldırmak için aşağıdaki gibi yazılabilir.
+alt çizgiler kalkmış oluyor.*/
+    border:1px solid silver;
+}
+
+
+li a:hover {   /* a:hover - Fare ile üzerine gelindiğindeki görünümü */
+
+    background-color: #f39c12;
+
+    color: white;
+}
+
+
+li:hover ul{  /*üzerine geldiğinde block olarak menü açılsın. */
+
+display:block;
+
+}
+
+
+ul li ul{
+  position:absolute; /*position: absolute;” 
+  kodu kullanarak belirttiğimiz genişlikte bir kutunun 
+  sağa ya da sola yaslanmasını sağlayabiliriz */
+
+  left:250px;
+
+  top:0;
+  
+  display:none;
+}
+
+#h1xx {
+color: red;
+}	
+
+#h1header {
+	color:purple;
+}
+
